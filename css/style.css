@@ -1,0 +1,52 @@
+body{
+    width: 100vw;
+    height: 140vh;    
+}
+
+
+header {
+    height: 10vh;
+    background-color:red;
+}
+
+.background-mio {
+    background-color:violet;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    height: 10vh;
+}
+
+.btnPersonalizado {
+    background-color:orange !important;
+}
+
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        width: 100%;
+        margin-top:45px;
+        background-color:#212529;
+    }
+  }
+
+
+@media (min-width: 992px) { }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) { 
+    .navbar-collapse {
+        width: auto;
+        margin-top:auto;
+        background-color:#212529;
+    }
+}
